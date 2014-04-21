@@ -1,0 +1,109 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroller"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true" >
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:orientation="vertical" >
+	    
+	    
+	     
+	     <TextView
+	         android:id="@+id/checkboxHeader"
+	         android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	         android:text ="@string/chooseAnnoucer"
+		     android:layout_marginBottom="2mm"
+	         android:textSize="35sp"/>
+	     
+	     
+	     <Spinner
+	        android:id="@+id/announcerSpinner"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="5mm"
+	        android:spinnerMode="dropdown"
+	        android:textSize="25sp"/>
+	     
+	     <TextView
+	         android:id="@+id/checkboxHeader"
+	         android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	         android:text ="@string/chooseCharacter"
+	        android:layout_marginBottom="2mm"
+	         android:textSize="35sp"/>
+	    
+	     <CheckBox
+	        android:id="@+id/chkMerlin"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+		     android:layout_marginBottom="1mm"
+	        android:paddingLeft="12mm"
+	        android:button="@drawable/merlin_selector"
+	        android:text="@string/merlin"
+	        android:textSize="25sp" />
+	     
+	     
+	    
+	     <CheckBox
+	        android:id="@+id/chkPercival"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+		     android:layout_marginBottom="1mm"
+	        android:paddingLeft="12mm"
+	        android:button="@drawable/percival_selector"
+	        android:text="@string/percival" 
+	        android:textSize="25sp"/>
+	     
+	     
+	    
+	     <CheckBox
+	        android:id="@+id/chkMorgana"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+		     android:layout_marginBottom="1mm"
+	        android:paddingLeft="12mm"
+	        android:button="@drawable/morgana_selector"
+	        android:text="@string/morgana" 
+	        android:textSize="25sp"/>
+	     
+	     
+	    
+	     <CheckBox
+	        android:id="@+id/chkOberon"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+		     android:layout_marginBottom="1mm"
+	        android:paddingLeft="12mm"
+	        android:button="@drawable/oberon_selector"
+	        android:text="@string/oberon" 
+	        android:textSize="25sp"/>
+	     
+	     
+	     
+	    
+	     <CheckBox
+	        android:id="@+id/chkMordred"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+		     android:layout_marginBottom="1mm"
+	        android:paddingLeft="12mm"
+	        android:button="@drawable/mordred_selector"
+	        android:text="@string/mordred" 
+	        android:textSize="25sp"/>
+	     
+	
+	      <Button
+	        android:id="@+id/btnStart"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/startGame" 
+	        android:textSize="25sp"/>
+	    
+	    
+	
+		</LinearLayout>
+</ScrollView>
+	    

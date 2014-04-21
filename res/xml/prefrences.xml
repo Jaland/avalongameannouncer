@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+	    <EditTextPreference android:title="@string/longPauseTime" android:defaultValue="3" 
+	        android:numeric="integer" android:key="longPauseTimer" android:summary="Pause time during interaction sequences (I.E. After all Minons open their eyes)"
+	        />
+	    <EditTextPreference android:title="@string/shortPauseTime" android:defaultValue="2" 
+	        android:numeric="integer" android:key="shortPauseTimer" android:summary="Pause time inbetween sequences (I.E. After close eyes)"/>
+
+</PreferenceScreen>

@@ -1,0 +1,32 @@
+<resources>
+
+    <string name="app_name">Resistance Avalon Announcer</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Resistance Avalon: Game Announcer</string>
+    
+    <string name="merlin">Merlin</string>
+    <string name="percival">Percival</string>
+    <string name="morgana">Morgana</string>
+    <string name="oberon">Oberon</string>
+    <string name="mordred">Mordred</string>
+    
+    
+    
+    <string name="chooseCharacter">Choose Characters:</string>
+    <string name="chooseAnnoucer">Choose Announcer:</string>
+    
+    <string name="startGame">Start Game</string>
+    
+    <string name="longPauseTime">Interaction Time(Seconds):</string>
+    <string name="shortPauseTime">Short Pause Time(Seconds):</string>
+    
+    
+    <string-array name="announcer_array">
+        <item>TripsOro</item>
+        <item>Blix3r</item>
+        <item>Polski Merlin</item>
+        <item>TripsOro - (Loud)</item>
+    </string-array>
+    
+
+</resources>

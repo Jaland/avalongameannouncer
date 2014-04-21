@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="TripsOro">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/assets/TripsOro.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
